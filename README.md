@@ -39,7 +39,7 @@ O projeto foi estruturado em uma jornada de descoberta e modelagem:
 | 🔴 Alta | Mudança de métrica para Recall/F1-Score |
 | 🟡 Média | Ponderação por amostra (pesos maiores para picos) |
 | 🟡 Média | Modelo em dois estágios (detecção + regressão) |
-| 🟢 Baixa | Trocar para algoritmos mais robustos (Random Forest/XGBoost) |
+| 🟢 Baixa | Trocar para algoritmos mais robustos |
 ---
 ## Tecnologias Utilizadas
 Python: Linguagem principal.
@@ -52,7 +52,6 @@ Scikit-learn: Modelagem e métricas de avaliação.
 
 Matplotlib & Seaborn: Visualizações e análise de resíduos.
 
-Status do Projeto
-🚨 MVP Concluído — Modelo não recomendado para produção.
-
+## Status do Projeto
+MVP Concluído — Modelo não recomendado para produção.
 O projeto entrega um diagnóstico preciso das falhas e um roteiro claro para evolução, mas não uma solução pronta para uso. Recomenda-se implementar as correções sugeridas antes de qualquer tentativa de deploy.
